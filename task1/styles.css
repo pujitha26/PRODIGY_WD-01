@@ -1,0 +1,65 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  height: 10%;
+  width: 100%;
+  background-color: #981f1f;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+nav ul {
+  list-style-type: none;
+  height:5%;
+  margin: 0;
+  padding: 10;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0;
+}
+
+nav ul li a {
+  display: block;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: rgb(249, 249, 251);
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: burlywood; /* Tomato color */
+}
+
+section {
+  padding: 100px 20px;
+  height: 100vh;
+  text-align: center;
+}
+
+#home {
+  background-color: bisque;
+
+}
+
+#about {
+  background-color: #949430;
+}
+
+#services {
+  background-color: #217c93;
+}
+
+#contact {
+  
+background-color: burlywood;
+ 
+}
